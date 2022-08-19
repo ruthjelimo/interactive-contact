@@ -1,0 +1,110 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background: #f9f9f9;
+  }
+/*---------------------------------------
+      CONTACT             
+  -----------------------------------------*/
+
+  #contact{
+	  background:#198fce;
+	  /*background-image: url(images/thin-laptop-right.jpg);
+	  background: -webkit-linear-gradient(to right, #198fce, #198fce);  
+	  background: linear-gradient(to right, #198fce, #198fce);*/
+      opacity: 1;
+      height: 100vh;
+      padding-top: 20px;
+  }
+  #contact-form .col-md-12,
+  #contact-form .col-md-4 {
+    padding-left: 0;
+
+  }
+
+  #contact-form .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid #f0f0f0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 10px 0;
+    color: black;
+  }
+
+  #contact-form .form-control:focus {
+    border-bottom-color: #202020;
+  }
+
+  #contact-form input {
+    height: 50px;
+    color: black;
+  }
+
+  #contact-form input[type='submit'] {
+    background: #202020;
+    border-radius: 50px;
+    border: 0;
+    color: #ffffff;
+  }
+
+  #contact-form input[type='submit']:hover {
+    background: #198fce;
+    color: #ffffff;
+  }
+  #contact-form input {
+    background: #198fce;
+    color: black;
+  }
+
+
+  /*---------------------------------------
+     FOOTER              
+  -----------------------------------------*/
+
+  footer {
+    padding-bottom: 80px;
+    margin-left: 20%;
+  }
+
+  .copyright-text p {
+    margin: 5px;
+  }
+
+  .copyright-text p, .copyright-text a{
+	  color:white;
+    margin-top: -30%;
+   
+  }
+
+
+  
+    footer {
+      padding-bottom: 40px;
+    }
+  
+
+
+  @media screen and (max-width: 767px) {
+
+    
+.form-control::-moz-placeholder,.form-control {
+    color: #fff !important;
+}
+#contact-form{
+	color: #fff;
+}
+#contact-form .form-control:focus {
+    border-bottom-color: #fff;
+}
+#contact-form .form-control{
+	border-bottom: 3px solid #fff;
+}
+#contact-form input[type="submit"] {
+    background: #19e !important;
+}
+  }
+ 
